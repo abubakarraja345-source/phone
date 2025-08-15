@@ -1,0 +1,37 @@
+✅ Weather App To-Do List
+🔧 Setup
+ Create index.html, style.css, and script.js
+
+ Link CSS and JS files in your HTML
+
+🖼 HTML Structure
+ Input field for city name
+
+ Button to trigger weather search
+
+ Empty container to display weather result
+
+🎨 CSS Styling
+ Center the app on the screen
+
+ Add clean, readable styles
+
+ Style the result box with spacing and borders
+
+🔌 JavaScript Logic
+ Fetch data from OpenWeatherMap API
+
+ Use fetch() and async/await
+
+ Handle input, error messages, and results
+
+ Extract and display:
+
+City name
+
+Temperature (°C)
+
+Weather description
+
+Weather icon
+

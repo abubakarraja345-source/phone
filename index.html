@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="html.css"/>
+</head>
+<body>
+    <button onclick="window.location.href='../index.html'">go back</button>
+
+    <form id="form">
+    <h1>Fill the Form</h1>
+
+    <h2>    INTRODUCTION</h2><div>
+        
+    </div>
+    <br>
+    <div>
+    <h3>First Name</h3> <input type="text" id="firstname" required/>
+           
+</div>
+    <div>
+    <h3>Last Name</h3> <input type="text" id="lastname" required/>       
+    </div>
+    <div>
+    <h3>Father Name</h3> <input type="text" id="fathername" required/>       
+    </div>
+        <br>
+    <h2>PERSONAL INFORMATION</h2>
+    <br>
+    <div>
+    <h3>Phone No.</h3> <input type="number" id="phone" required/>       
+    </div>
+    <div>
+    <h3>Religon</h3> <input type="text" id="religion" required/>       
+    </div>
+    <div>
+    <h3>Citizenship</h3> <input type="text" id="citizenship" required/>       
+    </div>
+   <!-- <div>
+    <h3 for ="Address">Address</Address></h3> <input type=""/>       
+    </div>
+    <div>
+    <h3>City</h3> <input type="text"/>       
+    </div>
+    <div>
+    <h3>Post Code</h3> <input type="number"/>       
+    </div>-->
+    
+    <h2>
+        ADDRESS
+    </h2>
+    <div>
+    <h3>House No#</h3> <input type="number" id="houseno" required/>       
+    </div>
+    <div>
+    <h3>Sreet No#</h3> <input type="number" id="streetno" required/>       
+    </div>
+    <div>
+    <h3>Town</h3> <input type="text" id="town" required/>       
+    </div>
+    <div>
+    <h3>City</h3> <input type="text" id="city" required/>       
+    </div>
+    <div>
+    <h3>State</h3> <input type="text" id="state" required/>       
+    </div>
+    <div>
+    <h3>ZIP</h3> <input type="number" id="zip" required/>       
+    </div>
+    <br>
+    <div>
+        <button type="submit">Submit</button>
+    
+        <button type="reset">Reset</button>
+
+        <button onclick="showsavedata()">Show Saved Data</button>
+    </div>
+
+    <div>
+        <button onclick="localStorage.clear()">Clear History</button>
+    </div>
+    </form>
+   <script src="script.js"></script>
+    <button onclick="window.location.href='thankhyou.html'">do not click</button>
+ 
+    <div id="table-container">
+    <table id="tdata">
+        <thead>
+    <tr>
+        <th>firstname</th>
+        <th>lastname</th>
+        <th>Fathername</th>
+        <th>Phone no.</th>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+</table> 
+   </div>
+   <button onclick="removelast()">removelastrow</button>
+</body>
+</html>
